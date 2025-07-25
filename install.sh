@@ -20,6 +20,7 @@ do_install() {
         exit 1
     fi
 
+    # nimi ante "DESTDIR" li lon la: o pilin e ni: ni li ma pi poki pana la: o pana tawa /usr, taso nimi ante "PREFIX" li lon la: o pana tawa ona
     # If DESTDIR is set, assume packaging environment and install to /usr, unless overwritten with PREFIX
     if [[ -z "${PREFIX:-}" ]]; then
         if [[ -n "${DESTDIR:-}" ]]; then
@@ -71,7 +72,7 @@ usage() {
     cat >&2 <<EOF
 Kepeken la: $0 [pali-taso|pana-taso|ala]
     sina o open e mi kepeken nasin Sudo la: mi pana e ilo tawa kulupu ale pi ilo sona ni
-    nimi ante DESTDIR en nimi ante PREFIX li lon, ona li sama ilo Autotools
+    nimi ante "DESTDIR" en nimi ante "PREFIX" li lon, ona li sama ilo Autotools
 Usage: $0 [build-only|install-only|all]
     Run as sudo to install system-wide.
     Autotools-like DESTDIR and PREFIX environment variables also supported.
