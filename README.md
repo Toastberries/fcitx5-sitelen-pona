@@ -75,6 +75,10 @@ makepkg -si
 <details>
 <summary><span style="font-size: 1.25em; font-weight: bold;">nasin "Linux" ante</span></summary>
 
+ilo ni li wile e ilo ante <br>
+ona li `libime` (tawa pali pi lipu ".dict" taso) li `fcitx5-chinese-addons` li `fcitx5` (sina awen sona)
+
+o pana e ilo ante <br>
 o pali sama e poki "Git" ni <br>
 o open e lipu "install.sh" <br>
 o kepeken nasin "Sudo" la: o pana e ilo tawa jan ale pi ilo sona ni <br>
