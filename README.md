@@ -3,14 +3,15 @@
 ## ni li seme
 
 ilo ni li ilo Ajemi ("IME") kepeken ilo "Fcitx5" <br>
-kepeken ona la: sina ken pali pona e sitelen pona pi toki pona <br>
-pali e sitelen lon sitelen Lasina la: ilo ni li ante e ona tawa sitelen pona
+kepeken ona la, sina ken pali pona e sitelen pona pi toki pona <br>
+pali e sitelen lon sitelen Lasina la, ilo ni li ante e ona tawa sitelen pona
 
 ## nasin kepeken
 
 o open e ilo ni kepeken nena kulupu "Ctrl + Space" <br>
 o sitelen e nimi sitelen anu nimi sitelen open taso, o luka e nena "Space" anu nanpa 1-5 <br>
-o luka e nena "Enter" la: sitelen Lasina li awen
+o luka e nena "Enter" la, sitelen Lasina li awen <br>
+sama ni:
 
 <details>
 <summary>[o luka e mi]</summary>
@@ -81,7 +82,7 @@ ona li `libime` (tawa pali pi lipu ".dict" taso) li `fcitx5-chinese-addons` li `
 o pana e ilo ante <br>
 o pali sama e poki "Git" ni <br>
 o open e lipu "install.sh" <br>
-o kepeken nasin "Sudo" la: o pana e ilo tawa jan ale pi ilo sona ni <br>
+o kepeken nasin "Sudo" la, o pana e ilo tawa jan ale pi ilo sona ni <br>
 sama ni:
 ```
 git clone https://github.com/Toastberries/fcitx5-sitelen-pona.git
