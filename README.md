@@ -41,10 +41,11 @@ sina ken pali suli e 'pi' e sitelen ante sama ni:
 ni li kulupu ale pi nasin sitelen namako:
 
 | nimi Usisa / Juniko     | sitelen "ASCII"                                 | sitelen pona                                         |
-|-------------------------|-------------------------------------------------|------------------------------------------------------|
+| ----------------------- | ----------------------------------------------- | ---------------------------------------------------- |
 | "Long Glyph"            | `(`: open <br> `)`: pini <br> `_`: linja namako | ![](./assets/sitelen_pona/long-glyph.svg)            |
 | "Reverse Long Glyph"    | `{`: open <br> `}`: pini <br> `_`: linja namako | ![](./assets/sitelen_pona/reverse-long-glyph.svg)    |
 | "Cartouche"             | `[`: open <br> `]`: pini <br> `=`: linja namako | ![](./assets/sitelen_pona/cartouche.svg)             |
+| "Combining Tally Mark"  | `,`                                             | ![](./assets/sitelen_pona/combining-tally-mark.svg)  |
 | "Zero Width Joiner"     | `-`                                             | ![](./assets/sitelen_pona/zero-width-joiner.svg)     |
 | "Stacking Joiner"       | `+` anu `^`                                     | ![](./assets/sitelen_pona/stacking-joiner.svg)       |
 | "Scaling Joiner"        | `*`                                             | ![](./assets/sitelen_pona/scaling-joiner.svg)        |
@@ -61,11 +62,11 @@ ni li kulupu ale pi nasin sitelen namako:
 sina lukin pona e sitelen la, o wile kepeken e nasin sitelen lipu pi nasin Usisa <br>
 sina ken sitelen e nasin sitelen namako pi ilo ni kepeken nasin sitelen lipu ni pona:
 
-| nasin sitelen lipu | nasin lukin | toki lili                                                                               | nasin tawa lipu                                                               |
-|--------------------|-------------|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| nasin nanpa        | linja sama  | kepeken lon lipu su; tenpo ni la, ni jo e nasin "Reverse Long Glyph" lon nimi 'la' taso | [GitHub](https://github.com/ETBCOR/nasin-nanpa)                               |
-| Fairfax HD         | linja sama  | jo sitelen pona ale; jo e ijo ante mute pi nasin Usisa                                  | [KreativeKorp](https://www.kreativekorp.com/software/fonts/fairfaxhd/)        |
-| sitelen seli kiwen | linja luka  | jo sitelen pona ale                                                                     | [KreativeKorp](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/) |
+| nasin sitelen lipu | nasin lukin | toki lili                                                                                                                           | nasin tawa lipu                                                               |
+| ------------------ | ----------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Fairfax HD         | linja sama  | jo sitelen pona ale; jo e ijo ante mute pi nasin Usisa                                                                              | [KreativeKorp](https://www.kreativekorp.com/software/fonts/fairfaxhd/)        |
+| nasin nanpa        | linja sama  | kepeken lon lipu su; tenpo ni la, ni li jo ala e nasin "Combining Tally Mark" li jo e nasin "Reverse Long Glyph" lon nimi 'la' taso | [GitHub](https://github.com/ETBCOR/nasin-nanpa)                               |
+| sitelen seli kiwen | linja luka  | jo sitelen pona ale                                                                                                                 | [KreativeKorp](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/) |
 
 ## pali pi pana e ilo
 

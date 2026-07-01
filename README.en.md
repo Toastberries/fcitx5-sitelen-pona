@@ -40,20 +40,21 @@ You can make long PIs or other long glyphs like this:
 
 Here is the full table of formatting tricks:
 
-| UCSUR / Unicode name    | ASCII character                                 | sitelen pona                                         |
-|-------------------------|-------------------------------------------------|------------------------------------------------------|
-| "Long Glyph"            | `(`: start <br> `)`: end <br> `_`: extension    | ![](./assets/sitelen_pona/long-glyph.svg)            |
-| "Reverse Long Glyph"    | `{`: start <br> `}`: end <br> `_`: extension    | ![](./assets/sitelen_pona/reverse-long-glyph.svg)    |
-| "Cartouche"             | `[`: start <br> `]`: end <br> `=`: extension    | ![](./assets/sitelen_pona/cartouche.svg)             |
-| "Zero Width Joiner"     | `-`                                             | ![](./assets/sitelen_pona/zero-width-joiner.svg)     |
-| "Stacking Joiner"       | `+` or `^`                                      | ![](./assets/sitelen_pona/stacking-joiner.svg)       |
-| "Scaling Joiner"        | `*`                                             | ![](./assets/sitelen_pona/scaling-joiner.svg)        |
-| "Zero Width Non-Joiner" | `/` or `\|`                                     | ![](./assets/sitelen_pona/zero-width-non-joiner.svg) |
-| "Middle Dot"            | `.`                                             | ![](./assets/sitelen_pona/middle-dot.svg)            |
-| "Colon"                 | `:`                                             | ![](./assets/sitelen_pona/colon.svg)                 |
-| "Corner Brackets"       | `<` and `>`                                     | ![](./assets/sitelen_pona/corner-brackets.svg)       |
-| "Variation Selecor"     | `~`                                             | ![](./assets/sitelen_pona/variation-selector.svg)    |
-| "Ideographic Space"     | `z`                                             | ![](./assets/sitelen_pona/ideographic-space.svg)     |
+| UCSUR / Unicode name    | ASCII character                              | sitelen pona                                         |
+| ----------------------- | -------------------------------------------- | ---------------------------------------------------- |
+| "Long Glyph"            | `(`: start <br> `)`: end <br> `_`: extension | ![](./assets/sitelen_pona/long-glyph.svg)            |
+| "Reverse Long Glyph"    | `{`: start <br> `}`: end <br> `_`: extension | ![](./assets/sitelen_pona/reverse-long-glyph.svg)    |
+| "Cartouche"             | `[`: start <br> `]`: end <br> `=`: extension | ![](./assets/sitelen_pona/cartouche.svg)             |
+| "Combining Tally Mark"  | `,`                                          | ![](./assets/sitelen_pona/combining-tally-mark.svg)  |
+| "Zero Width Joiner"     | `-`                                          | ![](./assets/sitelen_pona/zero-width-joiner.svg)     |
+| "Stacking Joiner"       | `+` or `^`                                   | ![](./assets/sitelen_pona/stacking-joiner.svg)       |
+| "Scaling Joiner"        | `*`                                          | ![](./assets/sitelen_pona/scaling-joiner.svg)        |
+| "Zero Width Non-Joiner" | `/` or `\|`                                  | ![](./assets/sitelen_pona/zero-width-non-joiner.svg) |
+| "Middle Dot"            | `.`                                          | ![](./assets/sitelen_pona/middle-dot.svg)            |
+| "Colon"                 | `:`                                          | ![](./assets/sitelen_pona/colon.svg)                 |
+| "Corner Brackets"       | `<` and `>`                                  | ![](./assets/sitelen_pona/corner-brackets.svg)       |
+| "Variation Selecor"     | `~`                                          | ![](./assets/sitelen_pona/variation-selector.svg)    |
+| "Ideographic Space"     | `z`                                          | ![](./assets/sitelen_pona/ideographic-space.svg)     |
 
 
 ## Fonts
@@ -61,11 +62,11 @@ Here is the full table of formatting tricks:
 To properly see the glyphs, you need to use a USCUR compliant font! <br>
 Here are some good options that support the above formatting:
 
-| Font               | Style               | Notes                                                                 | Link                                                                          |
-|--------------------|---------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| nasin nanpa        | Uniform line weight | Used in lipu su; As of now only supports "li" for reverse long glyphs | [GitHub](https://github.com/ETBCOR/nasin-nanpa)                               |
-| Fairfax HD         | Uniform line weight | Completionist, has obscure characters; has a lot of other UCSUR stuff | [KreativeKorp](https://www.kreativekorp.com/software/fonts/fairfaxhd/)        |
-| sitelen seli kiwen | Handwritten         | Completionist, has obscure characters                                 | [KreativeKorp](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/) |
+| Font               | Style               | Notes                                                                                                                | Link                                                                          |
+| ------------------ | ------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Fairfax HD         | Uniform line weight | Completionist, has obscure characters; has a lot of other UCSUR stuff                                                | [KreativeKorp](https://www.kreativekorp.com/software/fonts/fairfaxhd/)        |
+| nasin nanpa        | Uniform line weight | Used in lipu su; As of now is missing Combining Tally Mark codepoint, and only supports "li" for reverse long glyphs | [GitHub](https://github.com/ETBCOR/nasin-nanpa)                               |
+| sitelen seli kiwen | Handwritten         | Completionist, has obscure characters                                                                                | [KreativeKorp](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/) |
 
 ## Installation
 
